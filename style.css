@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*div ul li:hover a {
+	color: red ;
+}*/
+
+
+
+.main{
+	margin-top:0px;
+	width: 90;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/dawn2.png);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    margin-bottom: 3px;
+}   
+
+.content{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	position: relative;
+}
+
+.content .par{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+
+}
+
+.content h1{
+	font-family: 'Time New Roman';
+	font-size: 40px;
+	padding-left: 20px;
+	margin-top: 2px;
+	letter-spacing: 2px;
+	color : #ff7200
+}
+.content .cn {
+	width: 160px;
+	height: 40px;
+	background: #ff7200;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transform: .4s ease;
+
+} 
+
+.content  .cn a{
+	text-decoration: none;
+	color: #fff;
+	transform: .3s ease;
+}
+.cn: hover{
+	background-color: #fff;
+}
+.content span{
+	color : #ffff;
+	font-size: 50px;
+
+}
+.footer{
+	background-color: #191E22;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.footer span{float: left;}
+.footer ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 5px ;
+	float: right;
+}
+.footer ul li{
+	display: inline-block;
+}
+
+.p {
+	background-color:#cfe9e4;
+	font-family: "Times New Roman";
+	font-size: 14;
+}
+.p1{
+	font-family: Times New Roman;
+}
+.p2{
+	 color:#ff7200;
+	  #eae0ad
+} 
